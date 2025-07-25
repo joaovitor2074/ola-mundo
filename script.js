@@ -148,9 +148,9 @@ girarBtn.addEventListener("click", () => {
     if (progresso < 1) {
       requestAnimationFrame(animar);
     } else {
-      anguloAtual = angulo % 353.5;
+      anguloAtual = angulo % 353.4;
       const setores = secoes.length;
-      const anguloPorSetor = 345 / setores;
+      const anguloPorSetor = 360 / setores;
       const index = Math.floor(((360 - anguloAtual + anguloPorSetor / 2) % 360) / anguloPorSetor);
       mostrarPergunta(index);
     }
