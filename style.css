@@ -114,3 +114,38 @@ footer a {
   color: #00985D;
   text-decoration: none;
 } 
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .roleta-container {
+    width: 100%;
+  }
+
+  #roleta {
+    width: 100%;
+    height: auto;
+  }
+
+  #girar {
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  #alternativas button {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+
+  main {
+    padding: 15px;
+  }
+}
