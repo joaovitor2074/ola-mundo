@@ -1,11 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Roleta do Conhecimento - IFMA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
+  <header>
+    <img src="if-logo.png" alt="Logo IFMA" id="logo-ifma" />
+    <h1>Roleta do Conhecimento - IFMA</h1>
+  </header>
+
+  <main>
+    <div class="roleta-container">
+      <canvas id="roleta" width="400" height="400"></canvas>
+    </div>
+
+    <button id="girar">GIRAR</button>
+
+    <div id="pergunta-container">
+      <div id="pergunta-texto"></div>
+      <div id="alternativas"></div>
+      <div id="feedback"></div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Projeto feito por JV - IFMA Codó</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
