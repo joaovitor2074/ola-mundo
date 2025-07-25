@@ -129,10 +129,12 @@ footer a {
     width: 100%;
   }
 
-  #roleta {
-    width: 100%;
-    height: auto;
-  }
+#roleta {
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100%;
+}
+
 
   #girar {
     width: 100%;
