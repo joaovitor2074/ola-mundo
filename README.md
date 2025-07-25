@@ -1,5 +1,5 @@
 
- ## 🌐 Acesse o site
+## 🌐 Acesse o site
 
-[🔗 Clique aqui para visitar o site](https://joaovitor2074.github.io/ola-mundo/)
+👉 [Roleta do Conhecimento - IFMA](https://joaovitor2074.github.io/ola-mundo)
 
